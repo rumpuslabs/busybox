@@ -1,0 +1,12 @@
+[package]
+name = "lpc176x5x-hal"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-hal = { version = "0.2", features = ["unproven"] }
+lpc176x5x-pac = { version = "0", path = "../lpc176x5x-pac" }
+paste = "1.0"
+cortex-m-semihosting = "0.5"

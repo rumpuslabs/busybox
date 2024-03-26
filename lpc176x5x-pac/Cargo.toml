@@ -1,0 +1,60 @@
+[package]
+name = "lpc176x5x-pac"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = [ "all-peripherals", "atomics", "critical-section", "debug", "rt" ]
+
+atomics = ["dep:portable-atomic"]
+debug = []
+rt = ["dep:cortex-m-rt", "cortex-m-rt/device"]
+
+all-peripherals = [
+  "adc","can1","can2","canaf","canafram","ccan","dac","emac","gpdma","gpio","gpioint","i2c0","i2c1",
+  "i2c2","i2s","mcpwm","pinconnect","pwm1","qei","ritimer","rtc","spi","ssp0","ssp1","syscon",
+  "timer0","timer1","timer2","timer3","uart0","uart1","uart2","uart3","usb","wdt"]
+adc = []
+can1 = []
+can2 = []
+canaf = []
+canafram = []
+ccan = []
+dac = []
+emac = []
+gpdma = []
+gpio = []
+gpioint = []
+i2c0 = []
+i2c1 = []
+i2c2 = []
+i2s = []
+mcpwm = []
+pinconnect = []
+pwm1 = []
+qei = []
+ritimer = []
+rtc = []
+spi = []
+ssp0 = []
+ssp1 = []
+syscon = []
+timer0 = []
+timer1 = []
+timer2 = []
+timer3 = []
+uart0 = []
+uart1 = []
+uart2 = []
+uart3 = []
+usb = []
+wdt = []
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = { version = "0.7", optional = true }
+critical-section = { version = "1.1", optional = true }
+portable-atomic = { version = "1.5", optional = true, default-features = false }
+vcell = "0.1"

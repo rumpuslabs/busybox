@@ -1,0 +1,62 @@
+Reference;Quantity;Name;Description;Package;Other;Value
+R13,R14,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R45,R46,R48;15;100k;Resistor;AX3_1
+R15,R16,R17,R31,R35,R36,R37,R39,R40,R42,R47,R50,R51,R53,R54,R55,R58,R59;18;10k;Resistor;AX3_1
+R18;1;120;Resistor;AX3_1
+J1;1;12V;Connector 2 Pin;SIP2
+D8;1;1N400x;1A Diode;AX3_1
+C1,C2;2;1u;Capacitor;BOX2_1
+R62,R63;2;2k7;Resistor;AX3_1
+R29,R30,R32,R33,R34,R38,R41,R43,R44,R49,R52,R56,R57;13;4.7k;Resistor;AX3_1
+R1,R10,R11,R12,R2,R3,R4,R5,R7,R8,R9;11;470;Resistor;AX3_1
+R60,R61;2;4k7;Resistor;AX3_1
+U2;1;7805;5V Linear Regulator;TO220
+Q1,Q2,Q3;3;BC558;Transistor PNP;TO92
+J2;1;Conn_3;Connector 3 Pin;SIP3
+J12;1;Green LED 12V;Maintained Contact Push Button + LED;SIP4
+Q28;1;IRF9540N;P-Channel Insulated Gate FET;TO220
+J19;1;Jack;6mm audio jack;SIP3;SK1
+J20;1;Jack;6mm audio jack;SIP3;SK2
+J3;1;Key Switch;Key Switch;SIP2;KS1
+J5;1;LED;Light Emitting Diode - small;SIP2;D1
+J7;1;LED;Light Emitting Diode - small;SIP2;D3
+J15,J16;2;LED;Push Button + LED;SIP4
+J18;1;LEDx4;Light Emitting Diode x4;SIP8
+;0;LEDx4;Light Emitting Diode x4;SIP8;D4
+U1;1;LPCXpresso LPC1769;LPCXpresso_LPC1769;LPCXpresso
+Q10,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24,Q25,Q26,Q27,Q29,Q30,Q31,Q4,Q5,Q6,Q7,Q8,Q9;27;MPSA05;Transistor NPN;TO92
+J12;1;Maint. Push Button;Maintained Contact Push Button + LED;SIP4;PB3
+J17;1;Meter 4-20mA;Momentary Push Button + 4-20mA Meter;SIP4;M1;214R
+J9;1;Mom. Toggle Switch;Momentary Toggle Switch;SIP2;SW2
+PAD8;1;P0.19;Wire_to_Board;SIP1
+PAD2;1;P0.20;Wire_to_Board;SIP1
+PAD19;1;P1.18;Wire_to_Board;SIP1
+PAD13;1;P1.19;Wire_to_Board;SIP1
+PAD7;1;P1.20;Wire_to_Board;SIP1
+PAD18;1;P1.21;Wire_to_Board;SIP1
+PAD12;1;P1.22;Wire_to_Board;SIP1
+PAD6;1;P1.23;Wire_to_Board;SIP1
+PAD17;1;P1.24;Wire_to_Board;SIP1
+PAD11;1;P1.25;Wire_to_Board;SIP1
+PAD5;1;P1.26;Wire_to_Board;SIP1
+PAD16;1;P1.27;Wire_to_Board;SIP1
+PAD10;1;P1.28;Wire_to_Board;SIP1
+PAD4;1;P1.29;Wire_to_Board;SIP1
+PAD1;1;P2.9-USB_CONN;Wire_to_Board;SIP1
+PAD15;1;P3.25-GREEN_LED;Wire_to_Board;SIP1
+PAD9;1;P3.26-BLUE_LED;Wire_to_Board;SIP1
+PAD3;1;P4.28;Wire_to_Board;SIP1
+PAD14;1;P4.29;Wire_to_Board;SIP1
+J17;1;Push Button;Momentary Push Button + 4-20mA Meter;SIP4;PB7
+J14;1;Push Button;Push Button + 12V LED;SIP4;PB4
+J15;1;Push Button;Push Button + LED;SIP4;PB5
+J16;1;Push Button;Push Button + LED;SIP4;PB6
+J4;1;Push Button;Push Button + RGB LED;SIP6;PB1
+J6;1;Push Button;Rotary Encoder and Push Button;SIP4;PB2
+J4;1;RGB LED;Push Button + RGB LED;SIP6;D2
+J11;1;Red LED 12V;Toggle Switch + LED;SIP4
+J13;1;Rocker Switch SPDT+Off;Switch SPDT+Off with LEDs;SIP4;SW5
+J6;1;Rotary Encoder;Rotary Encoder and Push Button;SIP4;RE1
+J10;1;Toggle Switch;Switch with LED;SIP3;SW3
+J11;1;Toggle Switch;Toggle Switch + LED;SIP4;SW4
+J8;1;Toggle Switch;Toggle Switch;SIP2;SW1
+J14;1;Yellow LED 12V;Push Button + 12V LED;SIP4
